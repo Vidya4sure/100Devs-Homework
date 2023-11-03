@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fjalla+One&family=Jost:ital,wght@1,300&family=Montserrat:wght@100&family=Noto+Sans:wght@100&family=Oswald:wght@200;300;400;500;600&family=Outfit:wght@500&family=Poppins:wght@300&family=Red+Hat+Display:wght@500&family=Roboto:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+/* TEXT */
+
+
+/* NAVBAR */
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: lightslategrey;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info {
+    gap: 10px;
+    color: white;
+}
+
+.info h5 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.logo {
+    width: 50px;
+    height: 100%;
+    /* background-color: pink; */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image img {
+    width: 30px;
+    overflow: hidden;
+}
+
+.donate button {
+    padding: 10px;
+    font-weight: 600;
+    color: lightslategrey;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* SECTION-01 */
+.section-1 {
+    width: 100%;
+    height: 50vh;
+    background-color: lightslategrey;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.heading-1 {
+    width: 70%;
+    height: 30%;
+    text-align: center;
+    padding-top: 40px;
+    /* background-color: pink; */
+}
+
+.heading-1 h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.paragraph-1 {
+    width: 45%;
+    height: 38%;
+    /* background-color: aquamarine; */
+    padding-top: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.video-1 {
+    width: 30%;
+    height: 10%;
+    /* background-color: pink; */
+    gap: 10px;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.video-icon i{
+    font-weight: 100;
+}
+
+/* SECTION-02 */
+.section-2 {
+    width: 100%;
+    min-height: 30vh;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-2 {
+    width: 35%;
+    height: 50px;
+    text-align: center;
+}
+
+.paragraph-2 {
+    width: 35%;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: 400;
+}
