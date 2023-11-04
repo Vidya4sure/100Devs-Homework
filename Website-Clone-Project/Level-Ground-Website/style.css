@@ -48,11 +48,12 @@ body {
 }
 
 .logo-image img {
-    width: 30px;
+    width: 40px;
     overflow: hidden;
 }
 
 .donate button {
+    width: 100px;
     padding: 10px;
     font-weight: 600;
     color: lightslategrey;
@@ -64,7 +65,7 @@ body {
 /* SECTION-01 */
 .section-1 {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-color: lightslategrey;
     flex-direction: column;
     align-items: center;
@@ -110,7 +111,8 @@ body {
 /* SECTION-02 */
 .section-2 {
     width: 100%;
-    min-height: 30vh;
+    height: 40vh;
+    margin-bottom: 40px;
     background-color: white;
     flex-direction: column;
     align-items: center;
@@ -130,4 +132,236 @@ body {
     font-size: 18px;
     margin-top: 16px;
     font-weight: 400;
+}
+
+/* SECTION-03 */
+.section-3 {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(142, 151, 160);
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-container {
+    width: 70%;
+    height: 80%;
+    /* background-color: pink; */
+    justify-content: space-evenly;
+}
+
+.info-classes {
+    width: 48%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-3 {
+    width: 70%;
+    height: 40%;
+    /* background-color: lightgreen; */
+    overflow: hidden;
+    position: cover;
+}
+
+.img-3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+
+.heading-3 {
+    width: 80%;
+    height: 10%;
+    /* background-color: blueviolet; */
+    text-align: center;
+    font-size: 20px;
+}
+
+.paragraph-3 {
+    width: 80%;
+    height: 30%;
+    /* background-color: lightyellow; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button-3 {
+    width: 80%;
+    height: 10%;
+    /* background-color: lightsalmon; */
+    text-align: center;
+}
+
+.button-3 button {
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.info-hire-us {
+    width: 48%;
+    height: 100%;
+    /* background-color: rgb(148, 206, 186); */
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* SECTION-4 */
+.section-4 {
+    width: 100%;
+    height: 50vh;
+    /* background-color: pink; */
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.heading-4 {
+    width: 50%;
+    height: 12%;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+.paragraph-4 {
+    width: 35%;
+    height: 30%;
+    /* background-color: lightcoral; */
+    text-align: center;
+    font-size: 18px;
+}
+
+.button-4 {
+    width: 50%;
+    height: 15%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.button-4 button {
+    width: 40%;
+    height: 100%;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+/* FOOTER-SECTION */
+.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(24, 39, 55);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section-5 {
+    width: 90%;
+    height: 85%;
+    /* background-color: pink; */
+}
+
+.info-5 {
+    width: 100%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+}
+
+.info-box-1 {
+    width: 15%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.social-icons {
+    width: 100%;
+    height: 30%;
+    /* background-color: lightseagreen; */
+    row-gap: 20px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.social-icons i {
+    font-size: 30px;
+    /* color: white; */
+}
+
+.info-map {
+    width: 100%;
+    height: 30%;
+    /* background-color: green; */
+}
+
+.info-heading h5 {
+    color: lightslategrey;
+}
+
+.map-paragraph ul {
+    justify-content: space-between;
+    list-style: none;
+}
+
+.info-contribute {
+    width: 100%;
+    height: 30%;
+    /* background-color: green; */
+}
+
+.contri-para ul {
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.info-box-2 {
+    width: 15%;
+    height: 100%;
+    /* background-color: lightgreen; */
+}
+
+.address-1 {
+    width: 100%;
+    height: 40%;
+    /* background-color: pink; */
+}
+
+
+.address-2 p  {
+    font-weight: 300;
+}
+
+.address-2 a {
+    color: white;
+    padding-top: 20px;
+}
+
+.copywrite {
+    width: 100%;
+    height: 20%;
+    /* background-color: bisque; */
+    border-top: 2px solid white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.level-ground-logo img {
+    width: 40px;
+    overflow: hidden;
 }
