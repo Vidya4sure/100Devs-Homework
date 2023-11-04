@@ -208,6 +208,12 @@ body {
     border: 1px solid black;
 }
 
+.button-3 button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 .info-hire-us {
     width: 48%;
     height: 100%;
@@ -257,6 +263,12 @@ body {
     background-color: transparent;
     border: 1px solid black;
     font-size: 20px;
+}
+
+.button-4 button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 /* FOOTER-SECTION */
