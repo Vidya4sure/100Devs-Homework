@@ -32,6 +32,7 @@ body {
 .info {
     gap: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .info h5 {
@@ -55,11 +56,17 @@ body {
 .donate button {
     width: 100px;
     padding: 10px;
-    font-weight: 600;
+    font-weight: 500;
     color: lightslategrey;
     border: none;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.donate button:hover {
+    cursor: pointer;
+    background-color: rgb(24, 39, 55);
+    color: white;
 }
 
 /* SECTION-01 */
@@ -209,9 +216,9 @@ body {
 }
 
 .button-3 button:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
+    background-color: rgb(24, 39, 55);
+    color: white;
+    cursor: pointer;    
 }
 
 .info-hire-us {
@@ -266,7 +273,7 @@ body {
 }
 
 .button-4 button:hover {
-    background-color: black;
+    background-color: rgb(24, 39, 55);
     color: white;
     cursor: pointer;
 }
@@ -306,6 +313,7 @@ body {
     /* background-color: lightseagreen; */
     row-gap: 20px;
     justify-content: space-between;
+    cursor: pointer;
     /* align-items: center; */
 }
 
